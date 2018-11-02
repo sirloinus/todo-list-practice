@@ -18,7 +18,7 @@ const getPost = id =>
 //         })
 //     })
 
-    const createPost = (post) =>
+    const createPost = post =>
         fetch("http://localhost:3000/posts", {
             method: "POST",
             headers: {
